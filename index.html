@@ -4,14 +4,24 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
 
-        <title>Lemonsity's Terminal</title>
+        <title>Lemonsity's Den</title>
 
         <link rel="stylesheet" href="CSS/index.css">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
         <script src="Javascript/index.js"></script>
     </head>
     
-    <body style="background-color: #282C34; font-family: 'Ubuntu Mono', monospace; font-weight: bold; font-size: 18pt" onload="reset()">
-        <p>Hello</p>
+    <body>
+        <div class="column"></div>
+        <div class="column">
+            <div id="container">
+                <input type="image" src="Graphics/contract.svg" class="imageButton">
+                <input type="image" src="Graphics/laptop.svg" class="imageButton">
+                <input type="image" src="Graphics/teapot.svg" class="imageButton" onclick="temp()">
+                <input type="image" src="Graphics/bookshelf.svg" class="imageButton">
+                <input type="image" src="Graphics/project.svg" class="imageButton">
+            </div>
+        </div>
+        <div class="column"></div>
     </body>
 </html>
